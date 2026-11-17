@@ -23,13 +23,19 @@ function funny()
 
 function enthada(){
     document.getElementById("mn").style.backgroundColor="yellow";
-    document.getElementById("mn").placeholder="now enter the number ";
+    document.getElementById("mn").placeholder="$";
     document.getElementById("tg").style.backgroundColor="red";
-    document.getElementById("tg").placeholder="haa ivide thanne";
+    document.getElementById("tg").placeholder="*";
 }
 function looy(){
     document.getElementById("mn").style.backgroundColor="red";
     document.getElementById("tg").style.backgroundColor="yellow";
-    document.getElementById("tg").placeholder="mone oru limit ezhuthiye";
-    document.getElementById("mn").placeholder="number enter cheyy bro";
+    document.getElementById("tg").placeholder="+";
+    document.getElementById("mn").placeholder="=";
+}
+function catcho(){
+    document.getElementById("sub").style.width="200px";
+}
+function ehhh(){
+    document.getElementById("sub").style.width="50px";
 }
