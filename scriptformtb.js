@@ -1,13 +1,17 @@
 function funny()
 {
-a=document.getElementById("mn");
-b=document.getElementById("mn");
-//  Number(prompt("enter the limit"));
-hy=1;
-while(hy>=b)
-{
- c=hy*a;
- document.write(hy+"x"+a+"="+c);
- hy=hy+1;
-}
+    a=Number(document.getElementById("mn").value);
+    b=Number(document.getElementById("tg").value);
+    hy=1;
+    
+    while(hy>=b)
+    {
+        console.log(b);
+        c=hy*a;
+        document.writeln(hy+"x"+a+"="+c+"<br>");
+        hy=hy+1;
+    }
+    console.log(hy);
+    console.log(a);
+    console.log(b);
 }
