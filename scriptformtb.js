@@ -4,7 +4,7 @@ function funny()
     b=Number(document.getElementById("tg").value);
     hy=1;
     
-    while(hy>=b)
+    while(hy<=b)
     {
         console.log(b);
         c=hy*a;
