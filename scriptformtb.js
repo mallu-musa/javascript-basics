@@ -84,5 +84,5 @@ function ehhh(){
     kunjava.style.left=kunji+"px";
     kunjava.style.top=kunjan +"px";
     kunjava.style.transition="0.2s ease-out";
-    kunjava.value="click";
+    kunjava.value="try one more time";
  }
