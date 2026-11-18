@@ -34,8 +34,24 @@ function looy(){
     document.getElementById("mn").placeholder="=";
 }
 function catcho(){
-    document.getElementById("sub").style.width="200px";
+    kunjava=document.getElementById("sub");
+    maxX=window.innerWidth-kunjava.offsetWidth;
+    maxY=window.innerHeight-kunjava.offsetHeight;
+    kunji=Math.floor(Math.random() * maxX);
+    kunjan=Math.floor(Math.random() * maxY);
+    kunjava.style.position="absolute";
+    kunjava.style.left=kunji+"px";
+    kunjava.style.top=kunjan +"px";
+    kunjava.style.transition="0.2s ease-out";
+    kunjava.value.placeholder="submit cheyyada";
 }
 function ehhh(){
-    document.getElementById("sub").style.width="50px";
+    // kunji=math.floor(math.random() * math.random());
+    // kunjan=math.floor(math.random() * math.random());
+    // kunjava=document.getElementById("sub");
+    // kunjava.style.position="absolute";
+    // kunjava.style.left=kunji+"px";
+    // kunjava.style.top=kunjan +"px";
+    // kunjava.style.transition="0.2s ease-out";
+    kunjava.placeholder="submit cheyyada";
 }
