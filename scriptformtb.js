@@ -74,3 +74,15 @@ function ehhh(){
     }
 
  }
+ function heey(){
+    kunjava=document.getElementById("rrrr");
+    maxX=window.innerWidth-kunjava.offsetWidth;
+    maxY=window.innerHeight-kunjava.offsetHeight;
+    kunji=Math.floor(Math.random() * maxX);
+    kunjan=Math.floor(Math.random() * maxY);
+    kunjava.style.position="absolute";
+    kunjava.style.left=kunji+"px";
+    kunjava.style.top=kunjan +"px";
+    kunjava.style.transition="0.2s ease-out";
+    kunjava.value="click";
+ }
