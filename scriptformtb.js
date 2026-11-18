@@ -35,23 +35,42 @@ function looy(){
 }
 function catcho(){
     kunjava=document.getElementById("sub");
-    maxX=window.innerWidth-kunjava.offsetWidth;
-    maxY=window.innerHeight-kunjava.offsetHeight;
-    kunji=Math.floor(Math.random() * maxX);
-    kunjan=Math.floor(Math.random() * maxY);
-    kunjava.style.position="absolute";
-    kunjava.style.left=kunji+"px";
-    kunjava.style.top=kunjan +"px";
-    kunjava.style.transition="0.2s ease-out";
-    kunjava.value.placeholder="submit cheyyada";
-}
-function ehhh(){
-    // kunji=math.floor(math.random() * math.random());
-    // kunjan=math.floor(math.random() * math.random());
-    // kunjava=document.getElementById("sub");
+    // maxX=window.innerWidth-kunjava.offsetWidth;
+    // maxY=window.innerHeight-kunjava.offsetHeight;
+    // kunji=Math.floor(Math.random() * maxX);
+    // kunjan=Math.floor(Math.random() * maxY);
     // kunjava.style.position="absolute";
     // kunjava.style.left=kunji+"px";
     // kunjava.style.top=kunjan +"px";
     // kunjava.style.transition="0.2s ease-out";
-    kunjava.placeholder="submit cheyyada";
+    kunjava.value="submit cheyyada";
 }
+function ehhh(){
+    // kunji=math.floor(math.random() * math.random());
+    // kunjan=math.floor(math.random() * math.random());
+    kunjava=document.getElementById("sub");
+    // kunjava.style.position="absolute";
+    // kunjava.style.left=kunji+"px";
+    // kunjava.style.top=kunjan +"px";
+    // kunjava.style.transition="0.2s ease-out";
+    kunjava.value="submit cheyyada";
+}
+
+ function finanumber(){
+    fn=document.getElementById("num").value;
+    a=0;
+    while(a<=fn){
+        document.writeln(a+"<br>");
+        a=a+1;
+    }
+ }
+ function ageverification(){
+    age=document.getElementById("age").value;
+    if(age>=18){
+        document.write("you can vote")
+    }
+    else{
+        document.write("oh sorry bro , your a minor")
+    }
+
+ }
