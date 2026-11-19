@@ -86,3 +86,7 @@ function ehhh(){
     kunjava.style.transition="0.2s ease-out";
     kunjava.value="try one more time";
  }
+ function ykyk(){
+    mn=document.getElementById("ykykb");
+    mn.value="<a href=https://www.google.com/search?q=musammiln> you did it bro</a>"
+ }
