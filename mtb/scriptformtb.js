@@ -66,17 +66,17 @@ function ehhh(){
  }
  function ageverification(){
     age=document.getElementById("age").value;
-    if(age>=18){
-        document.write("you can vote")
+    if(age>=18&age<=130){
+        document.write("you can vote");
     }
     else if(age==0){
-        document.write("odra")
+        document.write("odra");
     }
     else if(age>=130){
-        document.write("pinne world record thanne 122 ollu")
+        document.write("pinne world record thanne 122 ollu");
     }
     else{
-        document.write("oh sorry bro , your a minor")
+        document.write("oh sorry bro , your a minor");
     }
 
  }
