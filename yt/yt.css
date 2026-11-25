@@ -2,17 +2,26 @@
     width: 90px;
     height: 30px;
 }
-.searchbar{
+/* .searchbar{
     text-align: center;
 
-}
+} */
 #search{
     border-top-left-radius: 20px;
-    width: 200px;
+    width: 500px;
     height: 30px;
     border-bottom-left-radius: 20px;
+    margin-left: 40px;
 }
 #searchbutton{
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
+}
+.hehe{
+    display: flex;
+}
+.menuimg{
+    width: 25px;
+    height: 25px;
+    gap: 20px;
 }
