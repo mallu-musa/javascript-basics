@@ -8,12 +8,20 @@
 </head>
 <body>
     <div class="hehe">
-        <button><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M20 5H4a1 1 0 000 2h16a1 1 0 100-2Zm0 6H4a1 1 0 000 2h16a1 1 0 000-2Zm0 6H4a1 1 0 000 2h16a1 1 0 000-2Z"></path></svg>
+        <button><svg xmlns="http://www.w3.org/2000/svg" height="24" width="24"><path d="M20 5H4a1 1 0 000 2h16a1 1 0 100-2Zm0 6H4a1 1 0 000 2h16a1 1 0 000-2Zm0 6H4a1 1 0 000 2h16a1 1 0 000-2Z" class="menu"></path></svg>
         </button>
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7rm59UBH0u_q7SRTt3MyWxeLWRbiqGNBZbNQHawgMyg&s=10" alt="yt logo" class="ytlogo">
 <input type="text" placeholder="search" id="search"><button id="searchbutton" onclick="searchmn()">
     <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M11 2a9 9 0 105.641 16.01.966.966 0 00.152.197l3.5 3.5a1 1 0 101.414-1.414l-3.5-3.5a1 1 0 00-.197-.153A8.96 8.96 0 0020 11a9 9 0 00-9-9Zm0 2a7 7 0 110 14 7 7 0 010-14Z"></path></svg></button>
     </div>
+    <div class="menuu">
+        <!-- <nav> -->
+    <button id="homebut" class="homebut" onmousemove="colorchange()" onmouseleave="color()"><a href="https://www.youtube.com/">home</a></button>
+    <button id="homebut1" class="homebut" onmousemove="colorchange1()" onmouseleave="color1()"><a href="https://www.youtube.com/shorts/">shorts</a></button>
+    <button id="homebut2" class="homebut" onmousemove="colorchange2()" onmouseleave="color2()"><a href="https://www.youtube.com/feed/subscriptions">subscription</a></button>
+    <button id="homebut3" class="homebut" onmousemove="colorchange3()" onmouseleave="color3()"><a href="https://www.youtube.com/feed/you">you</a></button>
+<!-- </nav> -->
+</div>
 <script src="ytscript.js"></script>
 </body>
 </html>
